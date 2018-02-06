@@ -11,9 +11,7 @@ for d in [ 4, 8, 16, 32, 64 ] :
         max_episode_steps=1000,
         reward_threshold=9000.0,
         kwargs={
-            'average_over': 3,
-            'passing_grade': -20,
-            'min_tries_for_avg': 3
+            'dimension': d
         },
     )
 
